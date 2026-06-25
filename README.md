@@ -50,7 +50,7 @@ The received NMEA frames are then parsed to extract useful navigation informatio
 ## System Architecture
 ![System Architecture](images/circuit.png)
 
----
+
 
 ## Communication Flow
 
