@@ -162,19 +162,6 @@ The parser identifies relevant NMEA sentences and extracts useful fields.
 | GPS Fix Status   | GPGGA         |
 | Satellites Count | GPGGA         |
 
-### Parsing Example
-
-```c
-char *token;
-
-token = strtok(nmeaSentence, ",");
-
-while(token != NULL)
-{
-    // Process fields
-    token = strtok(NULL, ",");
-}
-```
 
 ---
 
@@ -203,16 +190,7 @@ while(token != NULL)
 
 The system successfully receives and processes GPS data in real time.
 
-### Example Output
-
-```text
-UTC Time     : 14:32:18
-Latitude     : 36.7525 N
-Longitude    : 3.0420 E
-Satellites   : 10
-Fix Status   : Valid
-Date         : 12/06/2025
-```
+![System Architecture](images/result.png)
 
 ### Performance Observations
 
