@@ -1,0 +1,8 @@
+../Core/Src/nmea.c:12:5:gps_checksum	32	static
+../Core/Src/nmea.c:35:5:nmea_GPGGA	232	static
+../Core/Src/nmea.c:96:5:nmea_GPGSA	152	static
+../Core/Src/nmea.c:121:5:nmea_GPGLL	232	static
+../Core/Src/nmea.c:169:6:nmea_parse	40	static
+../Core/Src/nmea.c:196:7:deg2rad	16	static
+../Core/Src/nmea.c:201:7:haversine	48	static
+../Core/Src/nmea.c:217:8:parse_utc_time	40	static
