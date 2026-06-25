@@ -48,33 +48,7 @@ The received NMEA frames are then parsed to extract useful navigation informatio
 ---
 
 ## System Architecture
-
-```text
-+------------------+
-|   NEO-6M GPS     |
-|                  |
-|  TX -----> RX    |
-+--------+---------+
-         |
-         | UART
-         v
-+------------------+
-|      STM32       |
-|                  |
-| UART + DMA RX    |
-|                  |
-| NMEA Parser      |
-|                  |
-| Data Processing  |
-+--------+---------+
-         |
-         |
-         v
-+------------------+
-| Debug Terminal   |
-|   (UART/USB)     |
-+------------------+
-```
+![System Architecture](images/circuit.png)
 
 ---
 
